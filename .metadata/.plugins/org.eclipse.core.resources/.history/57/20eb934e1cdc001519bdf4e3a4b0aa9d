@@ -1,0 +1,16 @@
+package estd;
+
+public class MainProgram {
+
+	public static void main(String[] args) {
+		
+		new HelloWorld();
+		System.out.println(getHelloText());
+		
+	}
+	
+	public static String getHelloText(){
+		return "Hello";
+	}
+	
+}

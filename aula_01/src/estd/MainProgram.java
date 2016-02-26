@@ -7,4 +7,9 @@ public class MainProgram {
 		new HelloWorld();
 		
 	}
+	
+	public static String getHello(){
+		return "Hello";
+	}
+	
 }

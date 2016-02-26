@@ -1,0 +1,13 @@
+package estd;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class SumNumbersTest {
+
+	@Test
+	public void testSum() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,22 @@
+package estd;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class MainTest {
+
+	/*
+	public static void main(String[] args) {
+		
+	}
+	*/
+	
+	@Test
+	public void testGetHello() {
+		Assert.assertEquals("Hello", MainProgram.getHello());
+		Assert.assertEquals("Hello2", MainProgram.getHello());
+		Assert.assertEquals("HelloFail", MainProgram.getHello());
+		Assert.assertEquals("HelloError", MainProgram.getHello());
+		Assert.assertEquals("HelloAnotherError", MainProgram.getHello());
+	}
+}
