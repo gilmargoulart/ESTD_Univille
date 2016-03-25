@@ -1,5 +1,10 @@
 package estd;
 
+/**
+ * 
+ * @author gilmar.goulart
+ *
+ */
 public class Catalog {
 	
 	private String description;

@@ -1,5 +1,9 @@
 package estd;
-
+/**
+ * 
+ * @author gilmar.goulart
+ *
+ */
 public class Category {
 	private int code;
 	private String description;
