@@ -16,7 +16,7 @@ public class Category {
 	}
 	
 	/**
-	 * Instancia categoria com código randômico.
+	 * Instancia categoria com código randômico, e a descrição especificada.
 	 * @param description
 	 */
 	public Category(String description){
@@ -30,7 +30,7 @@ public class Category {
 	 * @return
 	 */
 	public int getCode() {
-		return code;
+		return this.code;
 	}
 	
 	/**
@@ -47,7 +47,7 @@ public class Category {
 	 * @return
 	 */
 	public String getDescription() {
-		return description;
+		return this.description;
 	}
 	
 	/**

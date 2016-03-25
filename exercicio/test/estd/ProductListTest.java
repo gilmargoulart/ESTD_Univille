@@ -1,5 +1,6 @@
 package estd;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class ProductListTest {
@@ -33,6 +34,8 @@ public class ProductListTest {
 		Catalog catalog = new Catalog("Catálogo de produtos");
 		catalog.addProducts(productList);
 		
+		//Deve ter inserido os 10 produtos
+		Assert.assertEquals(catalog.getSize(), 10);
 		
 		
 		/*
@@ -43,10 +46,16 @@ public class ProductListTest {
 		catalog.removeProduct(560283);
 		catalog.removeProduct(2422515);
 		
+		//Deve ter removido 2 produtos, restando 8
+		Assert.assertEquals(catalog.getSize(), 8);
 		
 		/*
 			Liste em tela os produtos restantes que sejam da categoria Praia e Piscina. (2.0)
 		*/
-		
+		Product[] productsInPraiaPiscina = catalog.getProductsByCategory(praiaPiscina);
+		System.out.printf("Cód., Descrição, Categoria, Preço Produto\n");
+		for (Product p : productsInPraiaPiscina) {
+			System.out.printf("%d, %s, %s, %.2f\n", p.getCode(), p.getDescription(), p.getCategory().getDescription(), p.getPrice());
+		}
 	}
 }

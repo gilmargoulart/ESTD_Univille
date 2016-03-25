@@ -57,7 +57,7 @@ public class Product {
 	 * @return
 	 */
 	public int getCode() {
-		return code;
+		return this.code;
 	}
 	/**
 	 * Define o código do produto.
@@ -72,7 +72,7 @@ public class Product {
 	 * @return
 	 */
 	public String getDescription() {
-		return description;
+		return this.description;
 	}
 	/**
 	 * Define a descrição do produto.
@@ -87,7 +87,7 @@ public class Product {
 	 * @return
 	 */
 	public float getPrice() {
-		return price;
+		return this.price;
 	}
 	
 	/**
@@ -103,7 +103,7 @@ public class Product {
 	 * @return
 	 */
 	public Category getCategory() {
-		return category;
+		return this.category;
 	}
 	
 	/**
