@@ -3,9 +3,11 @@
 	<item value="true" key="CommitDialog.showUntracked"/>
 	<list key="CommitDialog.authorValues">
 		<item value="Gilmar J. A. Goulart &lt;gilmar.g@outlook.com&gt;"/>
+		<item value="gilmar.goulart &lt;gilmar.goulart@LABDS103.univille.br&gt;"/>
 	</list>
 	<list key="CommitDialog.committerValues">
 		<item value="Gilmar J. A. Goulart &lt;gilmar.g@outlook.com&gt;"/>
+		<item value="gilmar.goulart &lt;gilmar.goulart@LABDS103.univille.br&gt;"/>
 	</list>
 	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
 		<item value="666" key="DIALOG_WIDTH"/>

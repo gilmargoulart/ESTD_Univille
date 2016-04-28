@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="estd.HelloWorld"/>
-<fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="estd.MainTest"/>
 <fullyQualifiedTypeName name="estd.MainProgram"/>
-<fullyQualifiedTypeName name="org.junit.Assert"/>
 <fullyQualifiedTypeName name="estd.SumNumbers"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="estd.Q1RetornaMenor"/>
+<fullyQualifiedTypeName name="estd.Q2RetornaSoma"/>
+<fullyQualifiedTypeName name="estd.Q3RetornaSeEhCinco"/>
+<fullyQualifiedTypeName name="estd.Q4ArranjoInvertido"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="estd.Q5RetornaSeExtremosIguais"/>
 </qualifiedTypeNameHistroy>
