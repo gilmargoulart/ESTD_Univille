@@ -9,7 +9,16 @@
 <fullyQualifiedTypeName name="estd.Q2RetornaSoma"/>
 <fullyQualifiedTypeName name="estd.Q3RetornaSeEhCinco"/>
 <fullyQualifiedTypeName name="estd.Q4ArranjoInvertido"/>
-<fullyQualifiedTypeName name="org.junit.Test"/>
-<fullyQualifiedTypeName name="org.junit.Assert"/>
 <fullyQualifiedTypeName name="estd.Q5RetornaSeExtremosIguais"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="src.Ex2NumeroExtenso"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="exercicios.Ex1Anagrama"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="exercicios.Ex3NumeroFaltante"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="node.SLinkedList"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
 </qualifiedTypeNameHistroy>
