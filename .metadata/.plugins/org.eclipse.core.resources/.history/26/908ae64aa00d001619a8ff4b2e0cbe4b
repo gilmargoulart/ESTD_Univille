@@ -1,0 +1,26 @@
+package node;
+
+public class SLinkedList<T> {
+	
+	private Node<T> first;
+	private Node<T> last;
+	
+	private long size;
+	
+	
+	public void add(T element){
+		if (size == 0) {
+			first = new Node<T>();
+			first.setElement(element);
+			first.setNext(null);
+			last = first;
+		} else {
+			Node<T> node = new Node<T>();
+			last.setNext(node);
+			last = node;
+			node.setElement(element);
+			node.setNext(last);
+		}
+		size++;
+	}
+}

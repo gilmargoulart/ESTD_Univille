@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="exercicios" project="ExercicioSemipresencial" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="exercicios.Ex2NumeroExtensoTest" time="0.0">
+    <testcase name="testeNumeroExtenso" classname="exercicios.Ex2NumeroExtensoTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="exercicios.Ex1AnagramaTest" time="0.0">
+    <testcase name="testeAnagrama" classname="exercicios.Ex1AnagramaTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="exercicios.Ex3NumeroFaltanteTeste" time="0.001">
+    <testcase name="testeNumeroFaltante" classname="exercicios.Ex3NumeroFaltanteTeste" time="0.001"/>
+  </testsuite>
+</testrun>

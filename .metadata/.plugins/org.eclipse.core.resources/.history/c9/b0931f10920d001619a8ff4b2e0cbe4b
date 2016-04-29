@@ -1,0 +1,14 @@
+import org.junit.Test;
+
+import src.Ex2NumeroExtenso;
+
+public class Ex2NumeroExtensoTest {
+	
+	@Test
+	public void testeNumeroExtenso(){
+		
+		//para arranjo {3,7,1} o algoritmo deve retornar {"três", "sete", "um"}
+		Ex2NumeroExtenso num = new 
+		
+	}
+}

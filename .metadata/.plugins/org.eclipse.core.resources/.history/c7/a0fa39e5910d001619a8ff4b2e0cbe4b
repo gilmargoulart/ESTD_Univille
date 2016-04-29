@@ -1,0 +1,8 @@
+
+public class Ex2NumeroExtensoTest {
+	
+	@test
+	public void testeNumeroExtenso(){
+		
+	}
+}

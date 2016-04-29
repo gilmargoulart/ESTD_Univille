@@ -1,0 +1,10 @@
+package node;
+
+public class SLinkedList<T> {
+	
+	private Note<T> first;
+	private Note<T> last;
+	
+	
+	
+}

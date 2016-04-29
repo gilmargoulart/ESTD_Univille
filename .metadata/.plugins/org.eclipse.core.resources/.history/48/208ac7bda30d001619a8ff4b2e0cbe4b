@@ -1,0 +1,13 @@
+package node;
+
+import org.junit.Test;
+
+public class SLinkedListTest {
+	
+	@Test
+	public void testLinkedList(){
+		
+		SLinkedList<String> linkedList = new SLinkedList<String>();
+		
+	}
+}

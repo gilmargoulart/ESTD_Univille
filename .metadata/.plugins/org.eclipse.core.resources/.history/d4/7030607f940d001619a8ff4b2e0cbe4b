@@ -1,0 +1,39 @@
+package exercicios;
+
+import java.awt.List;
+import java.util.Arrays;
+
+public class Ex1Anagrama {
+
+	/**
+	 * 1. Um anagrama é um jogo linguístico que consiste em formar palavras novas pela transposição de letras de outras. Por exemplo, gato é anagrama de toga.
+	Crie um algoritmo que, dadas duas Strings, verifique se uma é anagrama da outra.
+	 
+	Exemplos:
+	 
+	(Roma, Amor) -> TRUE (as strings são anagramas)
+	(Roma, Casa) -> FALSE (as strings não são anagramas)
+	 */
+	
+	private String strCompare1;
+	private String strCompare2;
+	
+	public Ex1Anagrama(String strCompare1, String strCompare2){
+		this.strCompare1 = strCompare1;
+		this.strCompare2 = strCompare2;
+	}
+
+	
+	public boolean isAnagrama(){
+		
+		char[] charsStrCompare1 = strCompare1.toCharArray();
+		Arrays.sort(arg0);
+		
+		for (char c : strCompare1.toCharArray()) {
+			ls.add(c);
+		}
+		
+		return true;
+	}
+	
+}

@@ -1,0 +1,73 @@
+package node;
+
+public class SLinkedList<T> {
+	
+	private Node<T> first;
+	private Node<T> last;
+	
+	private long size;
+	
+	
+	public void add(T element){
+		if (size == 0) {
+			first = new Node<T>();
+			first.setElement(element);
+			first.setNext(null);
+			last = first;
+		} else {
+			//Cria novo objeto
+			Node<T> node = new Node<T>();
+			
+			//Informar que o próximo node é o recém criado
+			last.setNext(node);
+			
+			//Atribui ao último node o node recém criado
+			last = node;
+			
+			//Atribui o elemento ao node
+			node.setElement(element);
+			
+			//Informar que o próximo é nulo
+			last.setNext(null);
+		}
+		size++;
+	}
+	
+	/**
+	 * Remove o primeiro elemento da lista
+	 */
+	public void removeFirst(){
+		if (this.size > 0) {
+			Node<T> next = first.getNext(); 
+			first = next;
+			first.setNext(next.getNext());
+			
+			this.size--;
+		}
+	}
+	
+	public Node<T> getFirst() {
+		return first;
+	}
+
+	public void setFirst(Node<T> first) {
+		this.first = first;
+	}
+
+	public long getSize() {
+		return size;
+	}
+
+	public void setSize(long size) {
+		this.size = size;
+	}
+
+	public void setLast(Node<T> last) {
+		this.last = last;
+	}
+
+	public Node<T> getLast() {
+		return last;
+	}
+	
+}

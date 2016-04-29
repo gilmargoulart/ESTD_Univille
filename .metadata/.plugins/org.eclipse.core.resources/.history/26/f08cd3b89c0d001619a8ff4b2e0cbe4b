@@ -1,0 +1,11 @@
+package exercicios;
+
+import org.junit.Test;
+
+public class Ex3NumeroFaltanteTeste {
+	
+	@Test
+	public void testeNumeroFaltante(){
+		
+	}
+}

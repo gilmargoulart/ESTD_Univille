@@ -1,0 +1,12 @@
+package exercicios;
+
+public class Ex1AnagramaTest {
+	
+	@Test
+	public void testeAnagrama(){
+		
+		
+		
+	}
+	
+}

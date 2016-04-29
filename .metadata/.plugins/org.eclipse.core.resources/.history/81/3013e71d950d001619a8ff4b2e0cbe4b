@@ -1,0 +1,14 @@
+package exercicios;
+
+import org.junit.Test;
+
+public class Ex1AnagramaTest {
+	
+	@Test
+	public void testeAnagrama(){
+		
+		
+		
+	}
+	
+}

@@ -1,0 +1,20 @@
+package node;
+
+public class SLinkedList<T> {
+	
+	private Node<T> first;
+	private Node<T> last;
+	
+	private long size;
+	
+	
+	public void add(){
+		if (size == 0) {
+			
+			
+		} else {
+			
+		}
+	}
+	
+}
