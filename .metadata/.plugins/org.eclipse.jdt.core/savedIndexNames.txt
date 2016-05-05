@@ -1,8 +1,0 @@
-INDEX VERSION 1.127+C:\Users\gilma\Dropbox\Univille\3Ano - 2016\ESTD - Estrutura de dados\Eclipse_Projects\.metadata\.plugins\org.eclipse.jdt.core
-2766571353.index
-3199002135.index
-2687875055.index
-665171885.index
-228123580.index
-1296162719.index
-4059474238.index
