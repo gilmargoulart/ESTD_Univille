@@ -1,7 +1,9 @@
-package br.univille;
+package br.univille.stack;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import br.univille.stack.Stack;
 
 public class StackTest {
 	

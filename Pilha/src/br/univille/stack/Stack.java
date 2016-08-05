@@ -1,4 +1,4 @@
-package br.univille;
+package br.univille.stack;
 
 public class Stack<T> {
 	
