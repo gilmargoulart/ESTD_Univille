@@ -9,7 +9,7 @@ public class QueueTest {
 
 	@Test
 	public void test() {
-		Queue<Integer> q = new Queue<Integer>();
+		Queue<Integer> q = new Queue<Integer>(5);
 		
 		System.out.println(q.toString());
 		
@@ -41,5 +41,30 @@ public class QueueTest {
 		Assert.assertTrue(q.isEmpty());
 		System.out.println(q.toString());
 		
+		q.enqueue(7);
+		q.enqueue(8);
+		q.enqueue(9);
+		
+		System.out.println(q.toString());
+		
+		q.dequeue();
+		System.out.println(q.toString());
+		
+		q.enqueue(1);
+		q.enqueue(2);
+		System.out.println(q.toString());
+		
+		q.dequeue();
+		System.out.println(q.toString());
+		
+		q.enqueue(0);
+		q.enqueue(0);
+		Assert.assertEquals(5, q.getCapacity());
+		System.out.println(q.toString());
+		
+		//Dobrar capacidade
+		q.enqueue(8);
+		Assert.assertEquals(10, q.getCapacity());
+		System.out.println(q.toString());
 	}
 }
