@@ -11,8 +11,9 @@ public class BuscaTest {
 		Busca busca = new Busca();
 		int[] a = {3, 5, 6, 3, 8};
 		
-		int n = busca.find(a, 6);
+		Assert.assertEquals(2, busca.find(a, 6));
 		
-		Assert.assertEquals(2, n);
+		//Verificar retorno quando não existe
+		Assert.assertEquals(-1, busca.find(a, 2));
 	}
 }
