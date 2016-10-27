@@ -9,7 +9,7 @@ public class TreeNode<T> {
 	
 	private T element;
 	
-	private List<TreeNode<T>> childrens = new ArrayList<TreeNode<T>>();
+	private List<TreeNode<T>> children = new ArrayList<TreeNode<T>>();
 
 	public TreeNode(T element){
 		setElement(element);
@@ -20,7 +20,7 @@ public class TreeNode<T> {
 	}
 	
 	public boolean isLeaf(){
-		return childrens.isEmpty();
+		return children.isEmpty();
 	}
 	
 	public void print(){
@@ -29,7 +29,7 @@ public class TreeNode<T> {
 	}
 	
 	private void print(TreeNode<T> parent, int nivel){
-		for (TreeNode<T> child : parent.getChildrens()) {
+		for (TreeNode<T> child : parent.getchildren()) {
 			int qtdEspacos = (nivel*2) + child.toString().length();
 			System.out.println(String.format("%" + qtdEspacos + "s", child.toString()));
 			if (!child.isLeaf()) {
@@ -40,13 +40,13 @@ public class TreeNode<T> {
 	
 	public void addChild(TreeNode<T> child){
 		child.setParent(this);
-		childrens.add(child);
+		children.add(child);
 	}
 	
 	public void addChild(T child){
 		TreeNode<T> c = new TreeNode<T>(child);
 		c.setParent(this);
-		childrens.add(c);
+		children.add(c);
 	}
 	
 	public TreeNode<T> getParent() {
@@ -65,12 +65,12 @@ public class TreeNode<T> {
 		this.element = element;
 	}
 
-	public List<TreeNode<T>> getChildrens() {
-		return this.childrens;
+	public List<TreeNode<T>> getchildren() {
+		return this.children;
 	}
 
 	public void setChilds(List<TreeNode<T>> childs) {
-		this.childrens = childs;
+		this.children = childs;
 	}
 	
 	@Override
